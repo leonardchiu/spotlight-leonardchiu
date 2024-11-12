@@ -1,7 +1,9 @@
 {
-  "/projects/page": "app/projects/page.js",
-  "/page": "app/page.js",
+  "/speaking/page": "app/speaking/page.js",
+  "/uses/page": "app/uses/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/articles/page": "app/articles/page.js",
-  "/articles/taming-the-erp-monster/page": "app/articles/taming-the-erp-monster/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/techs/page": "app/techs/page.js",
+  "/about/page": "app/about/page.js",
+  "/page": "app/page.js"
 }
