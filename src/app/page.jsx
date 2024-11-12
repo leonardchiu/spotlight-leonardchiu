@@ -14,10 +14,9 @@ import {
 import logoDMT from '@/images/logos/DMT.jpeg'
 import logoVMS from '@/images/logos/VMS.jpeg'
 import logoHyphens from '@/images/logos/hyphens.jpeg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
 import image1 from '@/images/photos/diving.png'
 import image2 from '@/images/photos/CCC.jpeg'
-import image3 from '@/images/photos/coding.jpg'
+import image3 from '@/images/photos/Leonard_summit.png'
 import image4 from '@/images/photos/BBM_cropped.jpg'
 import image5 from '@/images/photos/golf.jpg'
 import { getAllArticles } from '@/lib/articles'
@@ -268,19 +267,13 @@ export default async function Home() {
             inefficiencies between suppliers, manufacturers, and practitioners.
           </p>
           <div className="mt-6 flex gap-6">
-            <SocialLink href="#" aria-label="Follow on X" icon={XIcon} />
             <SocialLink
-              href="#"
-              aria-label="Follow on Instagram"
-              icon={InstagramIcon}
-            />
-            <SocialLink
-              href="#"
+              href="process.env.NEXT_PUBLIC_GITHUB_URL"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="#"
+              href="process.env.NEXT_PUBLIC_LINKEDIN_URL"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />

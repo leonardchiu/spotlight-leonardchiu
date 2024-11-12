@@ -1,9 +1,4 @@
 {
-  "/speaking/page": "app/speaking/page.js",
-  "/uses/page": "app/uses/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/articles/page": "app/articles/page.js",
-  "/techs/page": "app/techs/page.js",
-  "/about/page": "app/about/page.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }
