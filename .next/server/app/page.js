@@ -21,8 +21,6 @@ exports.modules = {
 var map = {
 	"./ARCHIVES/crafting-a-design-system-for-a-multiplanetary-future/page.mdx": [
 		"(rsc)/./src/app/articles/ARCHIVES/crafting-a-design-system-for-a-multiplanetary-future/page.mdx",
-		"vendor-chunks/next",
-		"vendor-chunks/@swc",
 		"_rsc_src_app_articles_ARCHIVES_crafting-a-design-system-for-a-multiplanetary-future_page_mdx"
 	],
 	"./ARCHIVES/crafting-a-design-system-for-a-multiplanetary-future/planetaria-design-system.png": [
@@ -31,14 +29,10 @@ var map = {
 	],
 	"./ARCHIVES/introducing-animaginary/page.mdx": [
 		"(rsc)/./src/app/articles/ARCHIVES/introducing-animaginary/page.mdx",
-		"vendor-chunks/next",
-		"vendor-chunks/@swc",
 		"_rsc_src_app_articles_ARCHIVES_introducing-animaginary_page_mdx"
 	],
 	"./ARCHIVES/rewriting-the-cosmos-kernel-in-rust/page.mdx": [
 		"(rsc)/./src/app/articles/ARCHIVES/rewriting-the-cosmos-kernel-in-rust/page.mdx",
-		"vendor-chunks/next",
-		"vendor-chunks/@swc",
 		"_rsc_src_app_articles_ARCHIVES_rewriting-the-cosmos-kernel-in-rust_page_mdx"
 	],
 	"./gen-ai-for-pharmaceutical-wholesaler/genai-pharma.webp": [
@@ -47,8 +41,6 @@ var map = {
 	],
 	"./gen-ai-for-pharmaceutical-wholesaler/page.mdx": [
 		"(rsc)/./src/app/articles/gen-ai-for-pharmaceutical-wholesaler/page.mdx",
-		"vendor-chunks/next",
-		"vendor-chunks/@swc",
 		"_rsc_src_app_articles_gen-ai-for-pharmaceutical-wholesaler_page_mdx"
 	],
 	"./page": [
@@ -65,8 +57,6 @@ var map = {
 	],
 	"./taming-the-erp-monster/page.mdx": [
 		"(rsc)/./src/app/articles/taming-the-erp-monster/page.mdx",
-		"vendor-chunks/next",
-		"vendor-chunks/@swc",
 		"_rsc_src_app_articles_taming-the-erp-monster_page_mdx"
 	],
 	"./why-webflow-and-not-any-other-traditional-stacks/Webflow.jpg": [
@@ -75,8 +65,6 @@ var map = {
 	],
 	"./why-webflow-and-not-any-other-traditional-stacks/page.mdx": [
 		"(rsc)/./src/app/articles/why-webflow-and-not-any-other-traditional-stacks/page.mdx",
-		"vendor-chunks/next",
-		"vendor-chunks/@swc",
 		"_rsc_src_app_articles_why-webflow-and-not-any-other-traditional-stacks_page_mdx"
 	],
 	"./xero-integration-with-filemaker/Xero_Filemaker.png": [
@@ -85,8 +73,6 @@ var map = {
 	],
 	"./xero-integration-with-filemaker/page.mdx": [
 		"(rsc)/./src/app/articles/xero-integration-with-filemaker/page.mdx",
-		"vendor-chunks/next",
-		"vendor-chunks/@swc",
 		"_rsc_src_app_articles_xero-integration-with-filemaker_page_mdx"
 	]
 };
@@ -100,7 +86,7 @@ function webpackAsyncContext(req) {
 	}
 
 	var ids = map[req], id = ids[0];
-	return Promise.all(ids.slice(1).map(__webpack_require__.e)).then(() => {
+	return __webpack_require__.e(ids[1]).then(() => {
 		return __webpack_require__(id);
 	});
 }
@@ -830,7 +816,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/@floating-ui","vendor-chunks/@headlessui","vendor-chunks/@react-aria","vendor-chunks/tabbable","vendor-chunks/next-themes","vendor-chunks/clsx","vendor-chunks/picomatch","vendor-chunks/fast-glob","vendor-chunks/@nodelib","vendor-chunks/braces","vendor-chunks/micromatch","vendor-chunks/to-regex-range","vendor-chunks/fill-range","vendor-chunks/fastq","vendor-chunks/is-glob","vendor-chunks/merge2","vendor-chunks/run-parallel","vendor-chunks/reusify","vendor-chunks/is-extglob","vendor-chunks/is-number","vendor-chunks/queue-microtask"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.jsx&appDir=%2FUsers%2Fleonardchiu%2FDesktop%2FReactJS%2Fleonardchiu2%2Fsrc%2Fapp&pageExtensions=js&pageExtensions=jsx&pageExtensions=ts&pageExtensions=tsx&pageExtensions=mdx&rootDir=%2FUsers%2Fleonardchiu%2FDesktop%2FReactJS%2Fleonardchiu2&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@headlessui","vendor-chunks/fast-glob","vendor-chunks/@nodelib","vendor-chunks/@react-aria","vendor-chunks/@floating-ui","vendor-chunks/braces","vendor-chunks/@swc","vendor-chunks/picomatch","vendor-chunks/clsx","vendor-chunks/to-regex-range","vendor-chunks/run-parallel","vendor-chunks/reusify","vendor-chunks/queue-microtask","vendor-chunks/micromatch","vendor-chunks/merge2","vendor-chunks/is-number","vendor-chunks/is-glob","vendor-chunks/is-extglob","vendor-chunks/fill-range","vendor-chunks/fastq","vendor-chunks/tabbable","vendor-chunks/next-themes"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.jsx&appDir=%2FUsers%2Fleonardchiu%2FDesktop%2FReactJS%2Fleonardchiu2%2Fsrc%2Fapp&pageExtensions=js&pageExtensions=jsx&pageExtensions=ts&pageExtensions=tsx&pageExtensions=mdx&rootDir=%2FUsers%2Fleonardchiu%2FDesktop%2FReactJS%2Fleonardchiu2&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();
